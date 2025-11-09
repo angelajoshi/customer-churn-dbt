@@ -1,0 +1,6 @@
+customer_id,gender,contract_type,status
+1,Male,Month-to-month,Active
+2,Female,Two year,Active
+3,Male,Month-to-month,Inactive
+4,Female,One year,Active
+5,Male,Month-to-month,Inactive

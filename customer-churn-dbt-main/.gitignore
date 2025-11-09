@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+*.egg-info/
+.tox/
+.ipynb_checkpoints/
+
+# dbt
+dbt_packages/
+target/
+dbt_modules/
+
+# Machine Learning
+ml/*.pkl
+
+# Streamlit
+.streamlit/local/
+
+# Airbyte
+.airbyte/
+
+# Logs
+*.log

@@ -1,0 +1,7 @@
+dbt-postgres
+prefect
+scikit-learn
+xgboost
+streamlit
+pandas
+psycopg2-binary
