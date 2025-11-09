@@ -40,27 +40,10 @@ This project demonstrates a modern data stack workflow for building a fully auto
 ---
 
 ## Architecture
+<img width="561" height="1437" alt="image" src="https://github.com/user-attachments/assets/1271022e-b3c8-42e5-8627-5c513f605c99" />
 
-```
-┌─────────────┐      ┌──────────────┐      ┌─────────────┐
-│   CSV/API   │ ───> │   Airbyte    │ ───> │ PostgreSQL  │
-│   Sources   │      │  (Ingestion) │      │  (Raw Zone) │
-└─────────────┘      └──────────────┘      └─────────────┘
-                                                   │
-                                                   ▼
-┌─────────────┐      ┌──────────────┐      ┌─────────────┐
-│  Streamlit  │ <─── │  Scikit-learn│ <─── │     dbt     │
-│  Dashboard  │      │  (ML Model)  │      │ (Transform) │
-└─────────────┘      └──────────────┘      └─────────────┘
-                            ▲
-                            │
-                      ┌─────────────┐
-                      │   Prefect   │
-                      │(Orchestrator)│
-                      └─────────────┘
-```
 
----
+
 
 ## Tech Stack
 
