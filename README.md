@@ -1,4 +1,4 @@
-# customer-churn-dbt
+
 # Customer Churn Prediction and Analytics
 
 > An end-to-end data pipeline with machine learning for predicting customer churn in subscription-based businesses
